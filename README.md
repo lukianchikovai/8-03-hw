@@ -77,7 +77,7 @@ Changes to be committed:
 
 13. Сделайте `git push origin main` - done 
 
-В качестве ответа добавьте ссылку на этот коммит в ваш md-файл с решением: `https://github.com/netology-code/sys-pattern-homework/commit/ecfeaa8`
+В качестве ответа добавьте ссылку на этот коммит в ваш md-файл с решением: (https://github.com/netology-code/sys-pattern-homework/commit/ecfeaa8)
 
 ---
 
@@ -110,7 +110,7 @@ cache/
 
 4. Сделайте коммит и пуш - done
 
-В качестве ответа добавьте ссылку на этот коммит в ваш md-файл с решением: `https://github.com/netology-code/sys-pattern-homework/commit/cd5c8a99f7742d9f4ca3570b01794c79c9f65c89`
+В качестве ответа добавьте ссылку на этот коммит в ваш md-файл с решением: (https://github.com/netology-code/sys-pattern-homework/commit/cd5c8a99f7742d9f4ca3570b01794c79c9f65c89)
 
 ---
 
@@ -147,4 +147,4 @@ Merge made by the 'ort' strategy.
 7. Сделайте пуш в основной ветке - done
 8. Не удаляйте ветку `dev` - done
 
-В качестве ответа прикрепите ссылку на граф коммитов `https://github.com/ваш-логин/ваш-репозиторий/network` в ваш md-файл с решением: `https://github.com/lukianchikovai/8-03-hw/network`
+В качестве ответа прикрепите ссылку на граф коммитов `https://github.com/ваш-логин/ваш-репозиторий/network` в ваш md-файл с решением: (https://github.com/lukianchikovai/8-03-hw/network)
