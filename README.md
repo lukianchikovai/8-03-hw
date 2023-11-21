@@ -28,14 +28,17 @@
 2. Создайте новый отдельный публичный репозиторий. Обязательно поставьте галочку в поле «Initialize this repository with a README» - done
 3. Склонируйте репозиторий, используя https протокол git clone - done
 4. Перейдите в каталог с клоном репозитория - done
-5. Произведите первоначальную настройку Git, указав своё настоящее имя и email: git config --global user.name и git config --global user.email johndoe@example.com - done
-6. Выполните команду git status и запомните результат - done
-"On branch main Your branch is up to date with 'origin/main'."
-7. Отредактируйте файл README.md любым удобным способом, переведя файл в состояние Modified - done
-8. Ещё раз выполните git status и продолжайте проверять вывод этой команды после каждого следующего шага - done
+5. Произведите первоначальную настройку Git, указав своё настоящее имя и email: `git config --global user.name` и `git config --global user.email johndoe@example.com` - done
+6. Выполните команду `git status` и запомните результат - done
 
-...
-On branch main
+```On branch main 
+Your branch is up to date with 'origin/main'.
+```
+
+7. Отредактируйте файл README.md любым удобным способом, переведя файл в состояние Modified - done
+8. Ещё раз выполните `git status` и продолжайте проверять вывод этой команды после каждого следующего шага - done
+
+```On branch main
 Your branch is up to date with 'origin/main'.
 
 Changes not staged for commit:
@@ -44,34 +47,35 @@ Changes not staged for commit:
         modified:   README.md
 
 no changes added to commit (use "git add" and/or "git commit -a")"
-...
+```
 
-9. Посмотрите изменения в файле README.md, выполнив команды git diff и git diff --staged - done
+9. Посмотрите изменения в файле README.md, выполнив команды `git diff` и `git diff --staged - done`
 
-git diff: вывод подсвечивает все изменения в файле README.md
-git diff --staged: пустой вывод
+`git diff`: вывод подсвечивает все изменения в файле README.md
+`git diff --staged`: пустой вывод
 
-10. Переведите файл в состояние staged или, как говорят, добавьте файл в коммит, командой git add README.md - done
-11. Ещё раз выполните команды git diff и git diff --staged - done
+10. Переведите файл в состояние staged или, как говорят, добавьте файл в коммит, командой `git add README.md` - done
+11. Ещё раз выполните команды `git diff` и `git diff --staged` - done
 
-git diff: пустой вывод
-git diff --staged: вывод подсвечивает все изменения в файле README.md
+`git diff`: пустой вывод
+`git diff --staged`: вывод подсвечивает все изменения в файле README.md
 
 
-get status:
-...
+`get status`:
+
+```
 On branch main
 Your branch is up to date with 'origin/main'.
 
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         modified:   README.md
-...
+```
 
-12. Теперь можно сделать коммит git commit -m 'First commit' - done
+12. Теперь можно сделать коммит `git commit -m 'First commit'` - done
 
 
-13. Сделайте git push origin master - done 
+13. Сделайте `git push origin main` - done 
 
 ---
 
