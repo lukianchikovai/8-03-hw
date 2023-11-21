@@ -1,12 +1,12 @@
-# Домашнее задание к занятию "`Название занятия`" - `Фамилия и имя студента`
+# Домашнее задание к занятию "Git" - Юлия Лукьянчикова
 
 
 ### Инструкция по выполнению домашнего задания
 
-   1. Сделайте `fork` данного репозитория к себе в Github и переименуйте его по названию или номеру занятия, например, https://github.com/имя-вашего-репозитория/git-hw или  https://github.com/имя-вашего-репозитория/7-1-ansible-hw).
-   2. Выполните клонирование данного репозитория к себе на ПК с помощью команды `git clone`.
+   1. Сделайте `fork` данного репозитория к себе в Github и переименуйте его по названию или номеру занятия, например, https://github.com/имя-вашего-репозитория/git-hw или  https://github.com/имя-вашего-репозитория/7-1-ansible-hw): done (https://github.com/lukianchikovai/8-03-hw)
+   2. Выполните клонирование данного репозитория к себе на ПК с помощью команды `git clone`: done
    3. Выполните домашнее задание и заполните у себя локально этот файл README.md:
-      - впишите вверху название занятия и вашу фамилию и имя
+      - впишите вверху название занятия и вашу фамилию и имя: done
       - в каждом задании добавьте решение в требуемом виде (текст/код/скриншоты/ссылка)
       - для корректного добавления скриншотов воспользуйтесь [инструкцией "Как вставить скриншот в шаблон с решением](https://github.com/netology-code/sys-pattern-homework/blob/main/screen-instruction.md)
       - при оформлении используйте возможности языка разметки md (коротко об этом можно посмотреть в [инструкции  по MarkDown](https://github.com/netology-code/sys-pattern-homework/blob/main/md-instruction.md))
@@ -24,14 +24,49 @@
 
 ### Задание 1
 
-`Приведите ответ в свободной форме........`
+1. Зарегистрируйте аккаунт на GitHub - done
+2. Создайте новый отдельный публичный репозиторий. Обязательно поставьте галочку в поле «Initialize this repository with a README» - done
+3. Склонируйте репозиторий, используя https протокол git clone - done
+4. Перейдите в каталог с клоном репозитория - done
+5. Произведите первоначальную настройку Git, указав своё настоящее имя и email: git config --global user.name и git config --global user.email johndoe@example.com - done
+6. Выполните команду git status и запомните результат - done
+"On branch main Your branch is up to date with 'origin/main'."
+7. Отредактируйте файл README.md любым удобным способом, переведя файл в состояние Modified - done
+8. Ещё раз выполните git status и продолжайте проверять вывод этой команды после каждого следующего шага - done
 
-1. `Заполните здесь этапы выполнения, если требуется ....`
-2. `Заполните здесь этапы выполнения, если требуется ....`
-3. `Заполните здесь этапы выполнения, если требуется ....`
-4. `Заполните здесь этапы выполнения, если требуется ....`
-5. `Заполните здесь этапы выполнения, если требуется ....`
-6. 
+"On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")"
+
+9. Посмотрите изменения в файле README.md, выполнив команды git diff и git diff --staged - done
+
+git diff: вывод подсвечивает все изменения в файле README.md
+git diff --staged: пустой вывод
+
+10. Переведите файл в состояние staged или, как говорят, добавьте файл в коммит, командой git add README.md - done
+11. Ещё раз выполните команды git diff и git diff --staged - done
+
+git diff: пустой вывод
+git diff --staged: вывод подсвечивает все изменения в файле README.md
+
+
+get status: On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+12. Теперь можно сделать коммит git commit -m 'First commit' - done
+
+
+13. Сделайте git push origin master - done 
 
 ```
 Поле для вставки кода...
