@@ -34,7 +34,8 @@
 7. Отредактируйте файл README.md любым удобным способом, переведя файл в состояние Modified - done
 8. Ещё раз выполните git status и продолжайте проверять вывод этой команды после каждого следующего шага - done
 
-"On branch main
+...
+On branch main
 Your branch is up to date with 'origin/main'.
 
 Changes not staged for commit:
@@ -43,6 +44,7 @@ Changes not staged for commit:
         modified:   README.md
 
 no changes added to commit (use "git add" and/or "git commit -a")"
+...
 
 9. Посмотрите изменения в файле README.md, выполнив команды git diff и git diff --staged - done
 
@@ -56,29 +58,20 @@ git diff: пустой вывод
 git diff --staged: вывод подсвечивает все изменения в файле README.md
 
 
-get status: On branch main
+get status:
+...
+On branch main
 Your branch is up to date with 'origin/main'.
 
 Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         modified:   README.md
+...
 
 12. Теперь можно сделать коммит git commit -m 'First commit' - done
 
 
 13. Сделайте git push origin master - done 
-
-```
-Поле для вставки кода...
-....
-....
-....
-....
-```
-
-`При необходимости прикрепитe сюда скриншоты
-![Название скриншота 1](ссылка на скриншот 1)`
-
 
 ---
 
